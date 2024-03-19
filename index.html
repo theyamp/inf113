@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>desafio2</title>
+  <style>
+    body {
+      background-image:url(fondo.jpg);
+      background-repeat: no-repeat;
+      align-items: center;
+      background-size: cover;
+    }
+
+    header {
+      
+      padding: 25px;
+      font-size: 200%;
+      text-align: center;
+    }
+    
+
+    .menu {
+      display: flex;
+      /*desplegamos en una linea*/
+      background-color: #e3d3d3;
+      /*color de fondo*/
+      padding: 5px;
+      /*espacio entre la caja*/
+      float: right;
+      /*ubicacion en la derecha*/
+    }
+
+    /*.(nombre de la clase)*/
+    .menu a {
+      /* todos las etiquetas a dentro de menu*/
+      color: rgb(239, 156, 14);
+      /*color de la letra*/
+      text-align: center;
+      /*alineacion al centro*/
+      padding: 14px 16px;
+      /*color de la letra (arriba, derecha,abajo,izquierda)*/
+      text-decoration: none;
+      /*indicamos que no tiene decoracion*/
+    }
+
+    menu a:hover {
+      /*en el menu y cubra la etiqueta a cambia de color*/
+      background-color: #ddd;
+      /*indicamos el color*/
+    }
+    .inicio {
+        text-align: center;
+    }
+    .resumen {
+        
+        text-align: center;
+    }
+    .conclusion {
+        background-color: #ddd;
+        text-align: center;
+    }
+
+    .contenido {
+      margin-top: 5px;
+      /*le damos espacio de margen (top=arriba,bot=abajo,rigth=derecha,left=izquierda)*/
+    }
+
+    #imagen {
+      /* para centrar imagen #id .class*/
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+      height: 500px;
+    }
+
+    .texto {
+      /* modifica la tipografia*/
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      /* modifica el tamaño de la letra*/
+      font-size: small;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>LA SOCIEDAD DE LA NIEVE</h1>
+    <nav class="inicio">
+      <a href="#ini">INICIO</a>
+      <a href="#res">RESUMEN</a>
+      <a href="#con">CONCLUSION</a>
+    </nav>
+  </header>
+  <section class="inicio">
+    <a name="inicio"></a>
+    <h2>INICIO</h2>
+    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 100%; text-align: center;">
+      En la cordillera de los Andes, un accidente de avión deja a un grupo de jóvenes rugbiers varados en la nieve.
+      Atrapados en un mundo hostil, sin comida ni refugio, deberán recurrir a su ingenio y a la fuerza del compañerismo
+      para sobrevivir. La película explora los límites del ser humano, la capacidad de adaptación y la importancia del
+      espíritu de equipo en la lucha por la supervivencia.
+
+      ¿Podrán los jóvenes superar las inclemencias del tiempo y las extremas condiciones para regresar a casa?
+    </p>
+    <iframe id="imagen" width="1000" height="1000" src="https://www.youtube.com/embed/rjBHugEYUog"
+      title="La SOCIEDAD de la NIEVE desde OTRA PERSPECTIVA | Relato y Reflexiones" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>"
+  </section>
+  <section class="resumen">
+    <a id="res"></a>
+    <h2>RESUMEN</h2>
+    <p style="font-family: Arial, Helvetica, sans-serif; text-align: center;">
+      La película se inicia con una atmósfera festiva, donde un grupo de jugadores de rugby uruguayos se prepara para un
+      viaje lleno de expectativas y camaradería. Sin embargo, el tono cambia abruptamente cuando el avión se estrella en
+      las inhóspitas montañas, convirtiendo un viaje de placer en una lucha desesperada por la supervivencia. Esta
+      transición es magistralmente manejada por Bayona, quien utiliza contrastes visuales y narrativos para resaltar la
+      cruda realidad que enfrentan los protagonistas.
+    </p>
+    <p style="font-family: Arial, Helvetica, sans-serif; text-align: center;">
+      Lo que diferencia a “La sociedad de la nieve” es su compromiso con la veracidad y la autenticidad. Basada en
+      testimonios reales y relatos documentados, la película evita sensacionalismos para centrarse en la experiencia
+      humana. Bayona logra capturar con precisión las emociones y dilemas morales que enfrentan los personajes, desde la
+      agonía física hasta los conflictos internos sobre la ética de sus decisiones de supervivencia.
+    </p>
+    <p style="font-family: Arial, Helvetica, sans-serif; text-align: center;">
+      Uno de los aspectos más impactantes de la película es su exploración profunda de la resiliencia humana y la
+      solidaridad en condiciones extremas. A pesar de las adversidades, los supervivientes muestran una capacidad
+      impresionante para adaptarse y colaborar, desafiando las expectativas y mostrando la fuerza del espíritu humano.
+      Esta temática se aborda con sensibilidad y profundidad, permitiendo al espectador reflexionar sobre la naturaleza
+      humana y los límites de la moralidad en situaciones extremas.
+    </p>
+    <p style="font-family: Arial, Helvetica, sans-serif; text-align: center;">
+      El elenco de “La sociedad de la nieve” brilla con interpretaciones auténticas y conmovedoras que dan vida a los
+      personajes y añaden capas de complejidad a la narrativa. Actores como Enzo Vogrincic, Matías Recalt y Esteban
+      Bigliardi ofrecen actuaciones memorables que capturan la intensidad y el drama de la historia. Además, la
+      cinematografía impresionante de Pedro Luque y la música evocadora de Michael Giacchino complementan perfectamente
+      la dirección de Bayona, creando una experiencia cinematográfica inmersiva.
+    </p>
+  </section>
+  <section class="conclusion">
+    <a id="con"></a>
+    <h2>CONCLUSION</h2>
+    <p style="font-family: Arial, Helvetica, sans-serif; text-align: center; font-size: 100%;">
+      “La sociedad de la nieve” se erige como una obra maestra del cine contemporáneo, gracias a la dirección magistral
+      de Juan Antonio Bayona y las actuaciones sobresalientes del elenco. A través de una narrativa emocionalmente
+      resonante y una representación auténtica de la resiliencia humana, la película ofrece una reflexión profunda sobre
+      la condición humana y los extraordinarios actos de coraje y solidaridad que pueden surgir en los momentos más
+      oscuros. Es una película que no solo entretiene, sino que también te conmueve y provoca una profunda introspección
+      sobre lo que significa ser humano en circunstancias extremas.
+    </p>
+  </section>
+  <footer>
+    <p style="color: #e3d3d3; text-align: center;">Derechos Reservados</p>
+  </footer>
+</body>
+
+</html>
